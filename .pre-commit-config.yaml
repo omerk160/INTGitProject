@@ -1,5 +1,5 @@
 repos:
--   repo: https://github.com/omerk160/INTGitProject
-    rev: v4.3.0
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0  # Check for the latest release
     hooks:
-    -   id: detect-aws-credentials
+      - id: detect-secrets
